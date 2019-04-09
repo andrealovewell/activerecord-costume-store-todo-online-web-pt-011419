@@ -1,2 +1,5 @@
-# Create your Costume class here
-# It should inherit from ActiveRecord::Base
+class Costume < ActiveRecord::Base
+
+  Costume.creat(:name => "Unisex Adult Hot Dog Costume"")
+
+end
